@@ -1,0 +1,45 @@
+/*Variables*/
+@import "../../Styles/variables.css";
+/*Icons*/
+@import "../../icons/style.css";
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;
+    max-width: 955px;
+    width: 100%;
+    max-height: 60px;
+    height: 60px;
+    padding: 0em 1em;
+    background-color: var(--color-dark);
+    color: var(--red-light-gray);
+}
+h3{
+    font-size: 3em;
+    font-family: var(--Details);
+    text-shadow: black 1px 4px 5px ;
+}
+
+h3 span{
+    font-size: 1em;
+    color: var(--color-primary);
+}
+nav ul{
+    display: flex;
+}
+a{
+    font-family: var(--Title-1);
+    font-size: 1.5em;
+    margin: 0px 1em;
+    color: var(--red-light-gray);
+}
+li:hover{
+    height: 100%;
+    background-color: var(--color-primary);
+}
+i{
+    font-size: 1.7em;
+    margin: 0px .5em;
+}
