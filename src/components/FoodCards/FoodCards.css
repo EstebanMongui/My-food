@@ -1,0 +1,10 @@
+@import "../../Styles/variables.css";
+
+.FoodCards{
+    max-height: 365px;
+    max-width: 227px;
+    height: 365px;
+    width: 227px;
+    box-sizing: border-box;
+    background-color: var(--color-dark);
+}

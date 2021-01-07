@@ -1,7 +1,9 @@
 import { render } from "@testing-library/react";
 import React from "react";
 
+//Components
 import Header from "../components/Header/Header.js"
+import FoodCards from "../components/FoodCards/FoodCards.js"
 
 class MyFoodHome extends React.Component{
     render(){
@@ -9,9 +11,12 @@ class MyFoodHome extends React.Component{
             //props
         }=this.props
         return(
-            <section>
+            <boddy className="boddy">
                 <Header />
-            </section>
+                <section>
+                    <FoodCards />
+                </section>
+            </boddy>
         )
     }
 }
