@@ -39,7 +39,7 @@
     height: 100%;
     background-color: var(--color-primary);
 }
-.Header__Icons{
+.Header__Icons i{
     font-size: 1.7em;
     margin: 0px .5em;
 }
