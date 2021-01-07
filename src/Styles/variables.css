@@ -1,0 +1,29 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Roboto&family=Sen&display=swap');
+
+/*Reset styles*/
+*{
+    margin:0px;
+    padding: 0px;
+    border: none;
+}
+*:focus {
+    outline:unset;
+}
+
+/*Variables*/
+:root{
+    /* Colors */
+    --color-primary: #EB2525;
+    --color-dark: #221F1F;
+    --red-light-gray: #FEF6F6;
+
+    /*Fonts*/
+    --Details: 'Sen', sans-serif;
+    --Title-1: 'Lexend Deca', sans-serif;
+    --Lorem-ipsum: 'Roboto', sans-serif;
+    
+    /*Shadows*/
+    --inner-text-shadow:inset 0px 2px 4px #BB1111;
+    --inner-box-shadow: inset 0px 5px 10px #BB1111;
+}
