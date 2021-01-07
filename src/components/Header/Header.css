@@ -3,7 +3,7 @@
 /*Icons*/
 @import "../../icons/style.css";
 
-section {
+.Header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,30 +16,30 @@ section {
     background-color: var(--color-dark);
     color: var(--red-light-gray);
 }
-h3{
+.Header__Logo{
     font-size: 3em;
     font-family: var(--Details);
     text-shadow: black 1px 4px 5px ;
 }
 
-h3 span{
+.Header__Logo span{
     font-size: 1em;
     color: var(--color-primary);
 }
-nav ul{
+.Header__Items{
     display: flex;
 }
-a{
+.Header__Items a{
     font-family: var(--Title-1);
     font-size: 1.5em;
     margin: 0px 1em;
     color: var(--red-light-gray);
 }
-li:hover{
+.Header__Items li:hover{
     height: 100%;
     background-color: var(--color-primary);
 }
-i{
+.Header__Icons{
     font-size: 1.7em;
     margin: 0px .5em;
 }
