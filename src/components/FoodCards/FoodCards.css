@@ -1,10 +1,44 @@
 @import "../../Styles/variables.css";
 
 .FoodCards{
-    max-height: 365px;
+    display: block;
     max-width: 227px;
-    height: 365px;
-    width: 227px;
+    max-height: 365px;
+    height: 30.41em;
+    width: 100%;
     box-sizing: border-box;
+    border-radius: .5em;
     background-color: var(--color-dark);
+    box-shadow: var(box-shadow);
+}
+
+.FoodCards__Description{
+    margin: 10px;
+    font-family: var(--Title-1);
+    font-weight: normal;
+    color: var(--red-light-gray);
+}
+.FoodCards__Description h3{
+    font-size: 2em;
+}
+.FoodCards__Description h4{
+    font-family: var(--Lorem-ipsum);
+    font-size: 1.3em;
+}
+.FoodCards__Description h5{
+    font-size: 1em;
+} 
+
+.FoodCards__Product{
+    height: 38%;
+    background-color: var(--red-light-gray);
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+}
+
+@media screen and (max-width: 480px){
+    .FoodCards{
+        height: 275px;
+        width: 172px;
+    }
 }
