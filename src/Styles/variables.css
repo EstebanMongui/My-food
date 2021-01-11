@@ -6,6 +6,8 @@
     margin:0px;
     padding: 0px;
     font-size: 12px;
+    font-weight: unset;
+    box-sizing: border-box;
     border: none;
     text-decoration: none;
     list-style: none;
@@ -18,7 +20,7 @@
 :root{
     /* Colors */
     --color-primary: #EB2525;
-    --color-dark: #221F1F;
+    --color-dark: #030404;
     --red-light-gray: #FEF6F6;
 
     /*Fonts*/

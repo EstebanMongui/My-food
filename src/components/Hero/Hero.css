@@ -1,0 +1,60 @@
+/*Variables*/
+@import "../../Styles/variables.css";
+
+.Hero{
+    display: block;
+    max-width: 955px;
+    max-height: 529px;
+    height: 100%;
+    width: 100vw;
+    padding: 40px 121px;
+    background-color: var(--color-dark);
+}
+.Hero__Texts{
+    position: relative;
+    z-index: 2;
+    height: 25.33%;
+    width: 65%;
+    font-weight: 400;
+    color: var(--red-light-gray);
+}
+.Hero__Texts h1{
+    font-family: var(--Title-1);
+    font-size: 5em;
+}
+.Hero__Texts h3{
+    max-height: 57px;
+    height: auto;
+    font-family: var(--Lorem-ipsum);
+    font-size: 1.3em;
+}
+.Hero__Image{
+    width: 400px;
+    position: ;
+    background-color: blue;
+    object-fit: cover;
+}
+.Hero__Image img{
+    object-fit: cover;
+    max-width: 400px;
+}
+@media screen and (max-width:425px){
+    .Hero{
+        box-sizing: none;
+        padding: 1em;
+    }
+    .Hero__Texts{
+        position: initial;
+        height: auto;
+    }
+    .Hero__Texts h1{
+        font-size: 4em;
+    }
+    .Hero__Image{
+        width: 50%;
+        left: 20%;
+    }
+    .Hero__Image image{
+        width: 50%;
+    }
+}

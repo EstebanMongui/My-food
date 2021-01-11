@@ -1,0 +1,13 @@
+@import "../../Styles/variables.css";
+
+.Button1{
+    max-width: 107px;
+    height: 40px;
+    width: 100%;
+    background-color: var(--color-primary);
+    text-align: center;
+    line-height: 40px;
+    font-family: var(--Title-1);
+    font-size: 1.2em;
+    color: var(--red-light-gray);
+}
