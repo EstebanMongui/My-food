@@ -4,7 +4,8 @@ import "./Tag.css"
 class Tag extends React.Component{
     render(){
         const{
-            value="value"
+            value="value",
+            color
         }=this.props
         return(
             <div className="Tag">{value}</div>

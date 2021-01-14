@@ -1,44 +1,67 @@
 @import "../../Styles/variables.css";
 
 .FoodCards{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     max-width: 227px;
     max-height: 365px;
     height: 30.41em;
     width: 100%;
     box-sizing: border-box;
     border-radius: .5em;
+    padding-top: 1px;
     background-color: var(--color-dark);
     box-shadow: var(box-shadow);
 }
 
 .FoodCards__Description{
     margin: 10px;
+    max-height: 55%;
     font-family: var(--Title-1);
     font-weight: normal;
     color: var(--red-light-gray);
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
 }
 .FoodCards__Description h3{
     font-size: 2em;
+    margin: 10px 0px;
 }
 .FoodCards__Description h4{
+    max-height: 55%;
     font-family: var(--Lorem-ipsum);
     font-size: 1.3em;
 }
-.FoodCards__Description h5{
-    font-size: 1em;
-} 
-
 .FoodCards__Product{
-    height: 38%;
+    height: 40%;
     background-color: var(--red-light-gray);
     border-bottom-left-radius: .5em;
     border-bottom-right-radius: .5em;
+    overflow: hidden;
+}
+.FoodCards__Product figcaption{
+    position: absolute;
+    font-size: 1em;
+    margin-left: 1em;
+    color: white;
+} 
+.FoodCards__Product img{
+    object-fit: cover;
+    width: 100%;
 }
 
 @media screen and (max-width: 480px){
     .FoodCards{
         height: 275px;
         width: 172px;
+    }
+    .FoodCards__Description h3{
+        font-size: 1.5em;
+    }
+    .FoodCards__Description h4{
+        font-size: 1em;
     }
 }

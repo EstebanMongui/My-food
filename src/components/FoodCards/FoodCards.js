@@ -10,7 +10,8 @@ class FoodCards extends React.Component{
         const{
             ProductName="ProductName",
             Description="Description",
-            Price="$0.0"
+            Price="$0.0",
+            imageUrl="https://revistapym.com.co/wp-content/uploads/2016/10/las-comidas-rapidas-1.png"
         }=this.props
         return(
             <div className="FoodCards">
@@ -18,9 +19,13 @@ class FoodCards extends React.Component{
                     <Tag />
                     <h3>{ProductName}</h3>
                     <h4>{Description}</h4>
-                    <h5>{Price}</h5>
                 </div>
-                <figure className="FoodCards__Product"></figure>
+                <figure className="FoodCards__Product">
+                    <figcaption>
+                        <Tag value={Price}/>
+                    </figcaption>
+                    <img src={imageUrl} alt=""/>
+                </figure>
             </div>
         )
     }
