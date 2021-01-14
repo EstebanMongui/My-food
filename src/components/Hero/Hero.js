@@ -14,15 +14,17 @@ class Hero extends React.Component{
         }=this.props
         return(
             <section className="Hero">
-                <div className="Hero__Texts">
+                <div className="Hero__Texts item">
                     <h1 className="Hero__Title">{title}</h1>
                     <h3>{content}</h3>
                 </div>
-                <figure className="Hero__Image">
+                <figure className="Hero__Image item">
                     <img src={heroImage} alt=""/>
                 </figure>
-                <SearchField />
-                <DetailImageCard />
+                <div className="item">
+                    <SearchField className="Hero__SearchField"/>
+                    <DetailImageCard />
+                </div>
             </section>
         )
     }

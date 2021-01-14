@@ -9,10 +9,10 @@ class MyFoodHome extends React.Component{
             //props
         }=this.props
         return(
-            <section>
-                <Header />
+            <boddy className="boddy">
+
                 <Hero />
-            </section>
+            </boddy>
         )
     }
 }
