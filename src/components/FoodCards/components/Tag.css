@@ -1,0 +1,10 @@
+.Tag{
+    height: 20px;
+    width: 80px;
+    border-radius: 10px;
+    font-family: var(--Title-1);
+    text-align: center;
+    font-size: 1em;
+    color: #277EC9;
+    background-color: #14283B;
+}
