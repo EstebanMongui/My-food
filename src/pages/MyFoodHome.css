@@ -29,6 +29,13 @@
     padding:0px 60.5px;
     margin: 20px 0px;
 }
+.Foother{
+    max-width: 955px;
+    width: 100vw;
+    height: 165px;
+    background-image: url("../icons/foother.svg");
+}
+
 
 @media SCREEN AND (max-width:425px){
     .MyFoodHome__SectionTitle{
@@ -37,7 +44,11 @@
     }
     .FoodCards__Container{
         display: flex;
+        flex-wrap: wrap;
         padding: 0px 10px;
         justify-content: space-between;
+    }
+    .Foother{
+        display: none;
     }
 }

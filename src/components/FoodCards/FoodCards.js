@@ -11,7 +11,7 @@ class FoodCards extends React.Component{
             <div className="FoodCards__Container">
                 {this.props.cardInformation.map(card => {
                     return(
-                        <div className="FoodCards">
+                        <div key={card.id} className="FoodCards">
                             <div className="FoodCards__Description">
                                 <Tag />
                                 <h3>{card.ProductName}</h3>

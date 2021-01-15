@@ -57,6 +57,7 @@
     .FoodCards{
         height: 275px;
         width: 172px;
+        margin-bottom: 20px;
     }
     .FoodCards__Description h3{
         font-size: 1.5em;

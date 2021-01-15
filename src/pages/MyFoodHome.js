@@ -45,6 +45,9 @@ class MyFoodHome extends React.Component{
                     <div className="FoodCards__Container">
                         <FoodCards cardInformation={this.state.cardInformation}/>
                     </div>
+                    <div className="Foother">
+                        <img src="../icons/foother.svg" alt=""/>
+                    </div>
                 </section>
             </div>
         )
