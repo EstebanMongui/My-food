@@ -8,9 +8,15 @@ class DetailImageCard extends React.Component{
             imageUrl
         }=this.props
         return(
-            <figure className="DetailImageCard">
-                <img src={imageUrl} alt=""/>
-            </figure>
+            <div className="DetailImage__Container">
+                {this.props.DetailImage.map(image => { 
+                    return(
+                        <figure key={image.id} className="DetailImageCard">
+                            <img src={image.imageUrl} alt=""/>
+                        </figure>
+                    )
+                    })}
+            </div>
         )
     }
 }

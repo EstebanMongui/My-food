@@ -1,13 +1,21 @@
 @import "../../../Styles/variables.css";
 
+.DetailImage__Container{
+    display: flex;
+    justify-content: space-between;
+}
 .DetailImageCard{
     height: 141px;
     max-width: 227px;
     width: 100%;
     border-radius: .3em;
     background-color: gray;
+    overflow: hidden;
 }
-
+.DetailImageCard img{
+    width: 100%;
+    object-fit: cover;
+}
 @media screen and (max-width:425px){
     .DetailImageCard{
         height: 79px;
