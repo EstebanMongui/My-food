@@ -10,6 +10,34 @@
 .MyFoodHome__Container{
     background-color: var(--color-dark);
     max-width: 955px;
+    width: 100vw;
+    height: auto;
+}
+.MyFoodHome__SectionTitle{
     width: 100%;
-    height: 1400px;
+    font-family: var(--Title-1);
+    color: var(--color-primary);
+    padding-left: 121px;
+    margin-top: 20px;
+    font-size: 3em;
+}
+.FoodCards__Container{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    padding:0px 60.5px;
+    margin: 20px 0px;
+}
+
+@media SCREEN AND (max-width:425px){
+    .MyFoodHome__SectionTitle{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .FoodCards__Container{
+        display: flex;
+        padding: 0px 10px;
+        justify-content: space-between;
+    }
 }

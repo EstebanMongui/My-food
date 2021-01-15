@@ -11,7 +11,7 @@
     box-sizing: border-box;
     border-radius: .5em;
     padding-top: 1px;
-    background-color: var(--color-dark);
+    background-color: var(--red-light-gray);
     box-shadow: var(box-shadow);
 }
 
@@ -20,7 +20,7 @@
     max-height: 55%;
     font-family: var(--Title-1);
     font-weight: normal;
-    color: var(--red-light-gray);
+    color: var(--color-dark);
     overflow-y: scroll;
 }
 ::-webkit-scrollbar{
@@ -46,7 +46,7 @@
     position: absolute;
     font-size: 1em;
     margin-left: 1em;
-    color: white;
+    color: var(--red-light-gray);
 } 
 .FoodCards__Product img{
     object-fit: cover;
