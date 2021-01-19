@@ -1,0 +1,25 @@
+{
+    "cardInformation":[
+        {
+            "id":1,
+            "ProductName":"Hamburguer",
+            "Description":"Carne picada en forma de disco que se puede acompañar con muchos otros alimentos: cebolla, tomate, papas, lonjas de queso, tiras de tocineta, servido todo dentro de un pan pequeño y blando con semillas de sésamo por encima. Esta es la descripción que ofrecen los diccionarios gastronómicos sobre la palabra hamburguesa.",
+            "Price":"12 USD",
+            "ImageUrl":"https://revistapym.com.co/wp-content/uploads/2016/10/las-comidas-rapidas-1.png"
+        },
+        {
+            "id":2,
+            "ProductName":"Pasta especial",
+            "Description":"Una de las entradas preferidas por todos en Pasta y Pasta es la deliciosa ensalada Caprese con jamón. Los exquisitos ingredientes que la hacen única son: Tomate fresco y natural, nuestra deliciosa mozzarella casera, albahaca seleccionada de primera calidad, aceite de oliva y jamón",
+            "Price":"10 USD",
+            "ImageUrl":"https://easyrecetas.com/wp-content/uploads/2019/12/Receta-de-Pasta-al-Pomodoro-700x525.jpg"
+        },
+        {
+            "id":3,
+            "ProductName":"Salmon en salsa de arandanos",
+            "Description":"Esta rica receta de salmón en salsa de arándano La Costeña® es deliciosa y muy fácil de preparar, lleva una rica salsa aromatizada con vino tinto, vinagre balsámico y romero. Lo mejor de todo es que no necesitas horno para prepararla y hacer esta sofisticada receta.",
+            "Price":"15 USD",
+            "ImageUrl":"https://locosxlaparrilla.com/wp-content/uploads/2015/02/Receta-salmon-salsa-arandanos-locos-x-parrilla-locosxlaparrilla-848x477.jpg"
+        }
+    ]
+}

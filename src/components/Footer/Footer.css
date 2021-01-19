@@ -1,0 +1,35 @@
+.Foother{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 955px;
+}
+.Foother figcaption{
+    text-align: center;
+    font-family: var(--Details);
+}
+.Foother figcaption .logo{
+    font-size: 4em;
+    color: transparent;
+    text-shadow: 1px 0px 2px var(--color-primary), 0 0 #BB1111;
+}
+.Foother figcaption span{
+    width: 185px;
+    font-size: 1em;
+    color: transparent;
+    text-shadow: 2px 0px 2px var(--color-secondary), 0 0 #BB1111;
+}
+.Foother .credits{
+    max-width: 185px;
+    height: 15px;
+    border-radius: 3px;
+    font-size: .25em;
+    font-family: var(--Title-1);
+    background-color: var(--red-light-gray);
+    color: var(--color-secondary);
+}
+.Foother .credits span{
+    background-color: var(--color-primary);
+    color: var(--light-gray);
+}
