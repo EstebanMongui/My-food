@@ -3,39 +3,14 @@ import React from "react";
 import Header from "../components/Header/Header.js";
 import Hero from "../components/Hero/Hero.js";
 import FoodCards from "../components/FoodCards/FoodCards.js"
-
+import Footer from "../components/Footer/Footer.js"
+//Styles
 import "./MyFoodHome.css"
-
+//data
+import data from "../data/food_data.json"
 class MyFoodHome extends React.Component{
-    state={
-        cardInformation:[
-            {
-                "id":1,
-                "ProductName":"Hamburguer",
-                "Description":"Description",
-                "Price":"0.0",
-                "ImageUrl":"https://revistapym.com.co/wp-content/uploads/2016/10/las-comidas-rapidas-1.png"
-            },
-            {
-                "id":2,
-                "ProductName":"Hamburguer",
-                "Description":"Description",
-                "Price":"0.0",
-                "ImageUrl":"https://revistapym.com.co/wp-content/uploads/2016/10/las-comidas-rapidas-1.png"
-            },
-            {
-                "id":3,
-                "ProductName":"Hamburguer",
-                "Description":"Description",
-                "Price":"0.0",
-                "ImageUrl":"https://revistapym.com.co/wp-content/uploads/2016/10/las-comidas-rapidas-1.png"
-            },
-        ]
-    }
+    state=data
     render(){
-        const{
-            //props
-        }=this.props
         return(
             <div className="MyFoodHome">
                 <section className="MyFoodHome__Container">
@@ -46,7 +21,7 @@ class MyFoodHome extends React.Component{
                         <FoodCards cardInformation={this.state.cardInformation}/>
                     </div>
                     <div className="Foother">
-                        <img src="../icons/foother.svg" alt=""/>
+                        <Footer/>
                     </div>
                 </section>
             </div>

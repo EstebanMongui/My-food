@@ -9,7 +9,6 @@
     width: 100vw;
     grid-template: 42.6% 57.4% /470px 361px;
     padding: 0px 0px 0px 121px;
-    background-color: var(--color-dark);
 }
 .item:nth-of-type(2){
     display: flex;
@@ -20,11 +19,13 @@
 .Hero__Texts{
     padding-top: 20px;
     font-weight: 400;
-    color: var(--red-light-gray);
+    color: var(--color-dark);
 }
 .Hero__Texts h1{
     font-family: var(--Title-1);
     font-size: 4em;
+    text-shadow: var(--inner-text-shadow);
+    color: transparent;
 }
 .Hero__Texts h3{
     font-family: var(--Lorem-ipsum);
@@ -58,6 +59,8 @@
     .Hero__Texts h3{
         position: absolute;
         max-height: 76px;
+        width: 66vw;
+        margin-top: 1em;
         z-index: 2;
     }
     .Hero__Image{

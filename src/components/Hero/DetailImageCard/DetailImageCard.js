@@ -4,9 +4,6 @@ import "./DetailImageCard.css"
 
 class DetailImageCard extends React.Component{
     render(){
-        const{
-            imageUrl
-        }=this.props
         return(
             <div className="DetailImage__Container">
                 {this.props.DetailImage.map(image => { 

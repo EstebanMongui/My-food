@@ -4,7 +4,10 @@
     border-radius: 10px;
     font-family: var(--Title-1);
     text-align: center;
+    line-height: 23px;
     font-size: 1em;
-    color: #277EC9;
-    background-color: #14283B;
+    font-weight: 550;
+    box-shadow: inset 0 2px 4px rgba(113, 88, 15, 40%);
+    color: var(--color-secondary);
+    background-color: var(--light-gray);
 }

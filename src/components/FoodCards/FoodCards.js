@@ -13,14 +13,15 @@ class FoodCards extends React.Component{
                     return(
                         <div key={card.id} className="FoodCards">
                             <div className="FoodCards__Description">
-                                <Tag />
+                                <div className="Tags">
+                                    <Tag value={"$" + card.Price}/>
+                                </div>
                                 <h3>{card.ProductName}</h3>
-                                <h4>{card.Description}</h4>
+                                <div className="Description">
+                                    <h4>{card.Description}</h4>
+                                </div>
                             </div>
                             <figure className="FoodCards__Product">
-                                <figcaption>
-                                    <Tag value={"$" + card.Price}/>
-                                </figcaption>
                                 <img src={card.ImageUrl} alt=""/>
                             </figure>
                         </div>

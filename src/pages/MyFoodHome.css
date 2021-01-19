@@ -8,7 +8,7 @@
 }
 
 .MyFoodHome__Container{
-    background-color: var(--color-dark);
+    background-color: var(--light-gray);
     max-width: 955px;
     width: 100vw;
     height: auto;
@@ -16,10 +16,11 @@
 .MyFoodHome__SectionTitle{
     width: 100%;
     font-family: var(--Title-1);
-    color: var(--color-primary);
     padding-left: 121px;
     margin-top: 20px;
     font-size: 3em;
+    text-shadow: var(--inner-text-shadow);
+    color: transparent;
 }
 .FoodCards__Container{
     display: flex;
@@ -48,7 +49,7 @@
         padding: 0px 10px;
         justify-content: space-between;
     }
-    .Foother{
-        display: none;
+    .MyFoodHome__SectionTitle{
+        margin-top: -20px;
     }
 }

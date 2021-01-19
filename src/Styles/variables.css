@@ -19,9 +19,10 @@
 /*Variables*/
 :root{
     /* Colors */
-    --color-primary: #EB2525;
-    --color-dark: #030404;
-    --red-light-gray: #FEF6F6;
+    --color-primary: #EBBA25;
+    --color-secondary: #EB7825;
+    --color-dark: #5D2C09;
+    --light-gray: #FCF7E8;
 
     /*Fonts*/
     --Details: 'Sen', sans-serif;
@@ -29,6 +30,6 @@
     --Lorem-ipsum: 'Roboto', sans-serif;
     
     /*Shadows*/
-    --inner-text-shadow:inset 0px 2px 4px #BB1111;
+    --inner-text-shadow: 1px 0px 3px var(--color-primary), 0 0 #BB1111;
     --inner-box-shadow: inset 0px 5px 10px #BB1111;
 }

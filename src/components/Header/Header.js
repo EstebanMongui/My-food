@@ -5,9 +5,6 @@ import "./Header.css"
 
 class Header extends React.Component{
     render(){
-        const{
-            //Props
-        }=this.props
         return(
             <section className="Header">
                 <h3 className="Header__Logo"> <span>My</span>Food</h3>
