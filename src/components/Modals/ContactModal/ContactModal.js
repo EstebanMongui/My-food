@@ -13,7 +13,7 @@ function ContactModal(props){
     }
     if (!props.isOpen){
         return null;
-    };
+    }
     return ReactDOM.createPortal(
         <div className="ContactModal">
             <div className="ContactModal__Info">
