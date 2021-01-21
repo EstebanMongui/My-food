@@ -1,0 +1,22 @@
+@import "../../Styles/variables.css";
+
+.Logo h3{
+    font-size: 3em;
+    font-family: var(--Details);
+    font-weight: 700;
+    color: transparent;
+    text-shadow: 1px 0px 2px var(--color-primary), 0 0 #BB1111;
+}
+
+.Logo h3 span{
+    font-size: 1em;
+    color: transparent;
+    text-shadow: 2px 0px 2px var(--color-secondary), 0 0 #BB1111;
+}
+
+@media screen and (max-width:425px){
+    .Logo h3{
+        font-size: 2em;
+        font-weight: 700;
+    }
+}

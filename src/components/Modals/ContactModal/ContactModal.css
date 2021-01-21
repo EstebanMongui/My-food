@@ -1,0 +1,93 @@
+@import "../../../Styles/variables.css";
+
+.ContactModal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 20%;
+    top: 0px;
+    z-index: 5;
+    max-width: 995px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(235,185,37,80%);
+    transition: 1s;
+}
+.ContactModal__Info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 437px;
+    height: 60vh;
+    width: 80vw;
+    border-radius: 10px;
+    background-color: var(--light-gray);
+    padding: 2em;
+    box-shadow: 0 4px 4px rgba(0,0,0,25%) ;
+}
+.CloseModal{
+    align-self: flex-end;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    color: white;
+}
+.Logo{
+    top: -12px;
+    position: relative;
+    align-self: top;
+    height: 50px;
+    background-color: var(--light-gray);
+}
+.Info__Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    border: solid 2px var(--color-dark);
+    border-style: dashed;
+}
+.ContactData{
+    text-align: center;
+}
+.ContactData h3{
+    font-family: var(--Title-1);
+    font-size: 2em;
+    color: var(--color-dark);
+}
+.ContactModal__Info h4{
+    text-align: center;
+    padding: 30px 5px;
+    font-family: var(--Lorem-ipsum);
+    color: var(--color-dark);
+    font-size: 1em;
+}
+
+@media screen and (max-width:425px){
+    .ContactModal{
+        left: 0px;
+    }
+    .ContactModal__Info{
+        height: 70vh;
+        width: 80vw;
+    }
+    .Logo{
+        top: -8px;
+    }
+    .ContactData h3{
+        font-size: 1.5em;
+    }
+    
+}

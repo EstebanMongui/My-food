@@ -37,7 +37,6 @@
     background-image: url("../icons/foother.svg");
 }
 
-
 @media SCREEN AND (max-width:425px){
     .MyFoodHome__SectionTitle{
         padding-left: 0px;
